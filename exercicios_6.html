@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 06</title>
+</head>
+<body>
+    <h1>Relatório Anual</h1>
+    <div id="Valores"></div>
+  <script>
+    let nomeloja = prompt("Digite o nome da loja");
+    let m1  = Number(prompt("Digite o total do mês de janeiro"));
+    let m2  = Number(prompt("Digite o total do mês de fevereiro"));
+    let m3  = Number(prompt("Digite o total do mês de março"));
+    let m4  = Number(prompt("Digite o total do mês de abril"));
+    let m5  = Number(prompt("Digite o total do mês de maio"));
+    let m6  = Number(prompt("Digite o total do mês de junho"));
+    let m7  = Number(prompt("Digite o total do mês de julho"));
+    let m8  = Number(prompt("Digite o total do mês de agosto"));
+    let m9  = Number(prompt("Digite o total do mês de setembro"));
+    let m10  = Number(prompt("Digite o total do mês de outubro"));
+    let m11  = Number(prompt("Digite o total do mês de novembro"));
+    let m12  = Number(prompt("Digite o total do mês de dezembro"));
+    
+    let sem1 = m1+m2+m3+m4+m5+m6;
+    let sem2 = m7+m8+m9+m10+m11+m12;
+
+    document.getElementById("Valores").innerHTML = "Loja:" + nomeloja + "</br>Total Vendas </br>Primeiro Semestre:" + sem1 + "</br>Segundo Semetre: " + sem2; 
+
+  </script>  
+</body>
+</html>
